@@ -5,14 +5,12 @@ export default class App extends Component {
   render() {
     return (
       <Switch>
-        <Redirect from="/" to="/home" exact/>
-        {
-          routeConfig.map((item,index)=>(
-            <Route path={item.path} key={index} render={()=>(
-              <item.component/>
-            )}/>
-          ))
-        }
+      <Redirect from="/" to="/home" exact/>
+      {
+        routeConfig.map((item,index)=>(
+           <BaseRoute key={index} {...item}/>
+        ))
+      }
       </Switch>
     )
   }
