@@ -21,5 +21,5 @@ yarn add react-router-dom redux react-redux redux-thunk redux-actions styled-com
 -`http-proxy-middleware` 进行服务器代理跨域
 
 ```javascript
-yarn add react-app-rewired customize-cra babel-plugin-import http-proxy-middleware
+yarn add react-app-rewired customize-cra babel-plugin-import http-proxy-middleware --dev
 ```

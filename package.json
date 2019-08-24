@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "better": "^0.1.0",
+    "better-scroll": "^1.15.2",
     "qs": "^6.8.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -14,15 +14,14 @@
     "redux": "^4.0.4",
     "redux-actions": "^2.6.5",
     "redux-thunk": "^2.3.0",
-    "scroll": "^3.0.1",
     "styled-components": "^4.3.2",
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"

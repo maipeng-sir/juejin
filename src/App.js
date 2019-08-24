@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <Switch>
-          <Redirect from="/" to="/home" exact/>
+          <Redirect from="/" to="/allbook" exact/>
           {
             routeConfig.map((item,index)=>(
                <BaseRoute key={index} {...item}/>
